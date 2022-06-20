@@ -110,22 +110,5 @@ public class MainActivity extends AppCompatActivity {
 
             return result.toString();
         }
-
-//        @Override
-//        protected void onPostExecute(String s) {
-//            super.onPostExecute(s);
-//            try {
-//                JSONObject jsonObject = new JSONObject(s);
-//                name = jsonObject.getString("name");
-//                JSONObject jsonObject1Main = jsonObject.getJSONObject("main");
-//                temp = jsonObject1Main.getDouble("temp") - 273.15;
-//                JSONArray jsonArrayWeather = jsonObject.getJSONArray("weather");
-//                JSONObject jsonObjectWeather = jsonArrayWeather.getJSONObject(0);
-//                weatherOutside = jsonObjectWeather.getString("main");
-//            } catch (JSONException e) {
-//                e.printStackTrace();
-//            }
-//
-//        }
     }
 }
