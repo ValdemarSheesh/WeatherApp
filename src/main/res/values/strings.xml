@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Weather App</string>
-    <string name="edit_text_start">Enter the city name or zip code</string>
-    <string name="check_the_weather">Check the weather</string>
-    <string name="text_weather">%s\nTemperature: %.1f\nWeather outside: %s</string>
-    <string name="message_text">City not found</string>
-    <string name="mess">city not found</string>
-    <string name="bebebe">city not found</string>
-</resources>
